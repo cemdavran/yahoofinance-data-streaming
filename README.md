@@ -10,8 +10,12 @@ Lambda Function [URL](https://we83os9z5g.execute-api.us-east-2.amazonaws.com/def
 After running the query on AWS Athena, I downloaded the output file which contains the highest hourly stock per company.
 I saved it as "Results_csv".
 
-## Data Collector Lambda Configuratior
+## Data Collector Lambda Configuration
 
-![Image description](assets/aws_lambda_configuration.png)
+![awslambda](assets/aws_lambda_configuration.png)
+
+## AWS Kinesis Stream Monitoring
+
+![awslambda](assets/kinesis_firehose_streaming.png)
 
 
