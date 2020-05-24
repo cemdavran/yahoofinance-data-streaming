@@ -7,8 +7,8 @@ I used yfinance module to get the pricing imformation of 10 different stocks.
   
   ### AWS Services that used in this project
     * AWS Lambda (Data Collection and Transformation)
-    * AWS Kinesis (Firehose) (Data Streaming)
-    * AWS Glue & Athena (Querying Data)
+    * AWS Kinesis (Data Streaming)
+    * AWS Glue & Athena (Data Query)
     * AWS S3 Buckets (Data Storage)
     
 
