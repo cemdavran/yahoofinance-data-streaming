@@ -6,10 +6,10 @@ I used yfinance module to get the pricing imformation of 10 different stocks.
   and transformed  records were put into a firehose delivery stream to transferred into S3 bucket.
   
   ### AWS Services that used in this project
-    AWS Lambda (Data Collection and Transformation)
-    AWS Kinesis (Firehose) (Data Streaming)
-    AWS Glue & Athena (Querying Data)
-    AWS S3 Buckets (Data Storage)
+    * AWS Lambda (Data Collection and Transformation)
+    * AWS Kinesis (Firehose) (Data Streaming)
+    * AWS Glue & Athena (Querying Data)
+    * AWS S3 Buckets (Data Storage)
     
 
 Lambda Function [URL](https://we83os9z5g.execute-api.us-east-2.amazonaws.com/default/yfinance-collector):   
