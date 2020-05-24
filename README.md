@@ -20,7 +20,7 @@ After running the query on AWS Athena, I downloaded the output file which contai
 
 Output csv file can be found as "Results_csv".
 
-## Data Collector Lambda Configuration
+## AWS Lambda Configuration
 
 ![awslambda](assets/aws_lambda_configuration.png)
 
