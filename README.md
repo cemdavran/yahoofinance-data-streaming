@@ -17,7 +17,8 @@ Lambda Function [URL](https://we83os9z5g.execute-api.us-east-2.amazonaws.com/def
 https://we83os9z5g.execute-api.us-east-2.amazonaws.com/default/yfinance-collector
 
 After running the query on AWS Athena, I downloaded the output file which contains the highest hourly stock per company.
-I saved it as "Results_csv".
+
+Output csv file can be found as "Results_csv".
 
 ## Data Collector Lambda Configuration
 
