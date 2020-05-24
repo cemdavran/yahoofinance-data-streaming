@@ -1,1 +1,1 @@
-# yahoofinance-data-streaming-aws-
+# yahoo finance data streaming with aws lambda
