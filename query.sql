@@ -1,4 +1,4 @@
-SELECT name as CompanyName, ts as Hour, high as HighestPrice, substring(ts,1,19) as HighestOccured
+SELECT name as CompanyName, substring(ts,12,2) as Hour, high as HighestPrice, substring(ts,1,19) as HighestOccured
 
 
 FROM (SELECT name as Company, substring(ts,12,2) as hour1, MAX(high) as highprice 
